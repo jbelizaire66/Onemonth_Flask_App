@@ -2,6 +2,7 @@
 #
 from flask import Flask, render_template, request
 from weather2 import get_location, get_weather
+import os
 
 
 
